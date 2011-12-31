@@ -2,7 +2,7 @@ fpath=(~/.zsh/completion $fpath)
 
 # completion
 autoload -U compinit
-compinit
+compinit -i -u
 
 # automatically enter directories without cd
 setopt auto_cd
