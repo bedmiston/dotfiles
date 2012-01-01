@@ -5,6 +5,9 @@ git_prompt_info() {
   fi
 }
 
+# Add ctags to the path
+export PATH=/usr/local/Cellar/ctags/5.8/bin:$PATH
+
 # makes color constants available
 autoload -U colors
 colors
