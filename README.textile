@@ -1,4 +1,4 @@
-h1. Joe Ferris' Config Files
+h1. Brendon Edmiston's config files initially based on Joe Ferris' Config Files
 
 a.k.a. dot files
 
