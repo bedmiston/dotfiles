@@ -59,13 +59,13 @@ else
 
 endif " has("autocmd")
 
- if has("folding")
-   set foldenable
-   set foldmethod=syntax
-   set foldlevel=1
-   set foldnestmax=2
-   set foldtext=strpart(getline(v:foldstart),0,50).'\ ...\ '.substitute(getline(v:foldend),'^[\ #]*','','g').'\ '
- endif
+" if has("folding")
+"   set foldenable
+"   set foldmethod=syntax
+"   set foldlevel=1
+"   set foldnestmax=2
+"   set foldtext=strpart(getline(v:foldstart),0,50).'\ ...\ '.substitute(getline(v:foldend),'^[\ #]*','','g').'\ '
+" endif
 
 " Softtabs, 2 spaces
 set tabstop=2
@@ -137,7 +137,7 @@ if executable("ack")
 endif
 
 " Color scheme
-colorscheme vividchalk 
+colorscheme railscasts 
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
 
